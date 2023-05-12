@@ -14,11 +14,11 @@ learn:
 
 implementations need support:
 
-1. **Leader Election (the important first thing core)**
+1. **Leader Election (the important first thing core PreVote)**
 2. **Log Replication (transport)**
 3. **Persistence (meta stable/log storage interface)**
 4. **Membership Changes(add/remove nodes)**
-5. **Log Compaction (snapshotting compaction)**
+5. **Log Compaction (snapshotting compaction <-> FSM)**
 
 open source code:
 
@@ -30,7 +30,8 @@ open source code:
 
 1. c++-raft: [https://github.com/baidu/braft](https://github.com/baidu/braft)  [https://github.com/PikaLabs/floyd](https://github.com/PikaLabs/floyd)
 2. rust-raft: [https://tikv.org/blog/implement-raft-in-rust/](https://tikv.org/blog/implement-raft-in-rust/) [https://github.com/tikv/raft-rs](https://github.com/tikv/raft-rs)
-3. go-raft: [https://github.com/hashicorp/raft](https://github.com/hashicorp/raft) [https://github.com/etcd-io/raft](https://github.com/etcd-io/raft)
+3. go-raft: [https://github.com/hashicorp/raft](https://github.com/hashicorp/raft)([prevote issue](https://github.com/hashicorp/raft/issues/31))   [https://github.com/etcd-io/raft](https://github.com/etcd-io/raft)
+4. go-multi-group-raft: [https://github.com/lni/dragonboat](https://github.com/lni/dragonboat)
 
 hashicorp raft  use case:
 
