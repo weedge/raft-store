@@ -30,7 +30,7 @@ open source code:
 
 [https://github.com/RedisLabs/redisraft/blob/master/deps/raft/README.md](https://github.com/RedisLabs/redisraft/blob/master/deps/raft/README.md) [**https://redis.com/blog/redisraft-new-strong-consistency-deployment-option/**](https://redis.com/blog/redisraft-new-strong-consistency-deployment-option/)
 
-1. c++-raft: [https://github.com/baidu/braft](https://github.com/baidu/braft)  [https://github.com/PikaLabs/floyd](https://github.com/PikaLabs/floyd)
+1. c++-raft:[**https://github.com/logcabin/logcabin**](https://github.com/logcabin/logcabin) [https://github.com/baidu/braft](https://github.com/baidu/braft) [https://github.com/PikaLabs/floyd](https://github.com/PikaLabs/floyd)
 2. rust-raft: [https://tikv.org/blog/implement-raft-in-rust/](https://tikv.org/blog/implement-raft-in-rust/) [https://github.com/tikv/raft-rs](https://github.com/tikv/raft-rs)
 3. go-raft: [https://github.com/hashicorp/raft](https://github.com/hashicorp/raft)([prevote issue](https://github.com/hashicorp/raft/issues/31))   [https://github.com/etcd-io/raft](https://github.com/etcd-io/raft)
 4. go-multi-group-raft: [https://github.com/lni/dragonboat](https://github.com/lni/dragonboat)
