@@ -22,9 +22,9 @@ implementations need support:
 
 open source code:
 
-1. c-raft: [https://github.com/redislabs/raft](https://github.com/redislabs/raft) [](https://github.com/willemt/raft)
+1. c-raft: [https://github.com/redislabs/raft](https://github.com/redislabs/raft) [https://github.com/willemt/raft](https://github.com/willemt/raft)
 
- [](https://github.com/redislabs/raft)[https://github.com/willemt/raft](https://github.com/willemt/raft) [https://github.com/willemt/ticketd](https://github.com/willemt/ticketd)
+ [https://github.com/redislabs/raft](https://github.com/redislabs/raft)[https://github.com/willemt/raft](https://github.com/willemt/raft) [https://github.com/willemt/ticketd](https://github.com/willemt/ticketd)
 
 [https://github.com/RedisLabs/redisraft/blob/master/deps/raft/README.md](https://github.com/RedisLabs/redisraft/blob/master/deps/raft/README.md) [**https://redis.com/blog/redisraft-new-strong-consistency-deployment-option/**](https://redis.com/blog/redisraft-new-strong-consistency-deployment-option/)
 
@@ -40,7 +40,7 @@ hashicorp raft  use case:
 4. [https://github.com/casbin/hraft-dispatcher/blob/main/store/store.go](https://github.com/casbin/hraft-dispatcher/blob/main/store/store.go)
 5. [https://github.com/tidwall/ticketd/blob/master/main.go](https://github.com/tidwall/ticketd/blob/master/main.go) (like c ticketd simple)
 6. [**https://github.com/tidwall/uhaha/blob/master/uhaha.go**](https://github.com/tidwall/uhaha/blob/master/uhaha.go)
-7. [**https://github.com/rqlite/rqlite/blob/master/store/store.go#L426](https://github.com/rqlite/rqlite/blob/master/store/store.go#L426) (distributed relational database use sqlite)**
+7. **[https://github.com/rqlite/rqlite/blob/master/store/store.go#L426](https://github.com/rqlite/rqlite/blob/master/store/store.go#L426) (distributed relational database use sqlite)**
 8. [https://github.com/hashicorp/consul/blob/v1.15.2/agent/consul/server.go#L1135](https://github.com/hashicorp/consul/blob/v1.15.2/agent/consul/server.go#L1135) (consul)
 9. [https://github.com/travisjeffery/jocko/blob/9613083803fc7d0fefd10d6d0cf00223d13ba301/jocko/leader.go#L117](https://github.com/travisjeffery/jocko/blob/9613083803fc7d0fefd10d6d0cf00223d13ba301/jocko/leader.go#L117) (kafka)
 10. [https://github.com/ipfs-cluster/ipfs-cluster/blob/f092e02850221fb03ebabb7bb24007748a36c804/consensus/raft/raft.go#L100](https://github.com/ipfs-cluster/ipfs-cluster/blob/f092e02850221fb03ebabb7bb24007748a36c804/consensus/raft/raft.go#L100) (ipfs)
@@ -53,11 +53,11 @@ raft storage(log, meta stable):
 3. [https://github.com/tidwall/raft-leveldb](https://github.com/tidwall/raft-leveldb)
 4. [https://github.com/hashicorp/raft-mdb](https://github.com/hashicorp/raft-mdb)
 5. [https://github.com/hashicorp/raft/blob/main/inmem_store.go](https://github.com/hashicorp/raft/blob/main/inmem_store.go)
-6. [**github.com/tidwall/raft-wal](http://github.com/tidwall/raft-wal) ([github.com/tidwall/wal](http://github.com/tidwall/wal))  [https://github.com/tidwall/raft-jss](https://github.com/tidwall/raft-jss) (json) simple raw support** 
+6. **[github.com/tidwall/raft-wal](http://github.com/tidwall/raft-wal) ([github.com/tidwall/wal](http://github.com/tidwall/wal))  [https://github.com/tidwall/raft-jss](https://github.com/tidwall/raft-jss) (json) simple raw support** 
 
 Storage:
 
-LMSTree
+LSMTree
 
 leveldb: [https://github.com/google/leveldb](https://github.com/google/leveldb) [https://github.com/syndtr/goleveldb](https://github.com/syndtr/goleveldb)
 
