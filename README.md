@@ -4,6 +4,8 @@ paper:
 
 [https://raft.github.io/raft.pdf](https://raft.github.io/raft.pdf)
 
+[https://web.stanford.edu/~ouster/cgi-bin/papers/OngaroPhD.pdf](https://web.stanford.edu/~ouster/cgi-bin/papers/OngaroPhD.pdf)
+
 [https://github.com/maemual/raft-zh_cn](https://github.com/maemual/raft-zh_cn)
 
 learn:
