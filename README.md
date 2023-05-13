@@ -37,7 +37,7 @@ open source code:
 
 hashicorp raft  use case:
 
-1. [[https://github.com/ledisdb/redis-failover](https://github.com/ledisdb/redis-failover/blob/3d60fbae159a63e375ab6b11f4a8913f46ce477f/failover/raft.go#L164)](https://github.com/ledisdb/redis-failover/blob/3d60fbae159a63e375ab6b11f4a8913f46ce477f/failover/raft.go#L164)
+1. [https://github.com/ledisdb/redis-failover/blob/3d60fbae159a63e375ab6b11f4a8913f46ce477f/failover/raft.go#L164](https://github.com/ledisdb/redis-failover/blob/3d60fbae159a63e375ab6b11f4a8913f46ce477f/failover/raft.go#L164)
 2. [**https://github.com/seaweedfs/seaweedfs/blob/2e351aa96735ab2d1e4c20d0973d0653820b4cd4/weed/server/raft_hashicorp.go#L138**](https://github.com/seaweedfs/seaweedfs/blob/2e351aa96735ab2d1e4c20d0973d0653820b4cd4/weed/server/raft_hashicorp.go#L138)
 3. [https://github.com/chengshiwen/influxdb-cluster/blob/529251fda5d776cf47bb0c247cf81075f2980fed/services/meta/raft_state.go](https://github.com/chengshiwen/influxdb-cluster/blob/529251fda5d776cf47bb0c247cf81075f2980fed/services/meta/raft_state.go)
 4. [https://github.com/ApsaraDB/PolarDB-ClusterManager/blob/dd1c4312b1202023eb693174e64be660d5c49140/pkg/meta/raft_consensus_service.go](https://github.com/ApsaraDB/PolarDB-ClusterManager/blob/dd1c4312b1202023eb693174e64be660d5c49140/pkg/meta/raft_consensus_service.go)
