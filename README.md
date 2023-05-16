@@ -1,6 +1,6 @@
 # raft-store
 
-paper:
+## paper:
 
 [https://raft.github.io/raft.pdf](https://raft.github.io/raft.pdf)
 
@@ -8,13 +8,13 @@ paper:
 
 [https://github.com/maemual/raft-zh_cn](https://github.com/maemual/raft-zh_cn)
 
-learn:
+## learn:
 
 [https://pdos.csail.mit.edu/6.824/](https://pdos.csail.mit.edu/6.824/)
 
 [https://github.com/talent-plan/tinykv](https://github.com/talent-plan/tinykv) (multi-raft)
 
-implementations need support:
+## implementations need support:
 
 1. **Leader Election (the important first thing core PreVote)**
 2. **Log Replication (transport)**
@@ -22,7 +22,7 @@ implementations need support:
 4. **Membership Changes(add/remove nodes)**
 5. **Log Compaction (snapshotting compaction <-> FSM)**
 
-open source code:
+## open source code:
 
 1. c-raft: [https://github.com/redislabs/raft](https://github.com/redislabs/raft) [https://github.com/willemt/raft](https://github.com/willemt/raft)
 
@@ -35,7 +35,7 @@ open source code:
 3. go-raft: [https://github.com/hashicorp/raft](https://github.com/hashicorp/raft)([prevote issue](https://github.com/hashicorp/raft/issues/31))   [https://github.com/etcd-io/raft](https://github.com/etcd-io/raft)
 4. go-multi-group-raft: [https://github.com/lni/dragonboat](https://github.com/lni/dragonboat)
 
-hashicorp raft  use case:
+### hashicorp raft  use case:
 
 1. [https://github.com/ledisdb/redis-failover/blob/3d60fbae159a63e375ab6b11f4a8913f46ce477f/failover/raft.go#L164](https://github.com/ledisdb/redis-failover/blob/3d60fbae159a63e375ab6b11f4a8913f46ce477f/failover/raft.go#L164)
 2. [**https://github.com/seaweedfs/seaweedfs/blob/2e351aa96735ab2d1e4c20d0973d0653820b4cd4/weed/server/raft_hashicorp.go#L138**](https://github.com/seaweedfs/seaweedfs/blob/2e351aa96735ab2d1e4c20d0973d0653820b4cd4/weed/server/raft_hashicorp.go#L138)
@@ -50,18 +50,19 @@ hashicorp raft  use case:
 11. [https://github.com/ipfs-cluster/ipfs-cluster/blob/f092e02850221fb03ebabb7bb24007748a36c804/consensus/raft/raft.go#L100](https://github.com/ipfs-cluster/ipfs-cluster/blob/f092e02850221fb03ebabb7bb24007748a36c804/consensus/raft/raft.go#L100) (ipfs)
 12. [https://github.com/dapr/dapr/blob/770d4e51604f1264d8bb25cedf16ea9f77539394/pkg/placement/raft/server.go#L226](https://github.com/dapr/dapr/blob/770d4e51604f1264d8bb25cedf16ea9f77539394/pkg/placement/raft/server.go#L226) (dapr placement data)
 
-raft storage(log, meta stable):
+### raft storage(log, meta stable):
 
-1. [https://github.com/BBVA/raft-badger](https://github.com/BBVA/raft-badger) [https://github.com/rfyiamcool/raft-badger](https://github.com/rfyiamcool/raft-badger)
-2. [https://github.com/hashicorp/raft-boltdb](https://github.com/hashicorp/raft-boltdb) 
-3. [https://github.com/tidwall/raft-leveldb](https://github.com/tidwall/raft-leveldb)
-4. [https://github.com/hashicorp/raft-mdb](https://github.com/hashicorp/raft-mdb)
-5. [https://github.com/hashicorp/raft/blob/main/inmem_store.go](https://github.com/hashicorp/raft/blob/main/inmem_store.go)
-6. **[github.com/tidwall/raft-wal](http://github.com/tidwall/raft-wal) ([github.com/tidwall/wal](http://github.com/tidwall/wal))  [https://github.com/tidwall/raft-jss](https://github.com/tidwall/raft-jss) (json) simple raw support** 
+1. [https://github.com/weedge/raft-pebble](https://github.com/weedge/raft-pebble)
+2. [https://github.com/BBVA/raft-badger](https://github.com/BBVA/raft-badger) [https://github.com/rfyiamcool/raft-badger](https://github.com/rfyiamcool/raft-badger)
+3. [https://github.com/hashicorp/raft-boltdb](https://github.com/hashicorp/raft-boltdb) 
+4. [https://github.com/tidwall/raft-leveldb](https://github.com/tidwall/raft-leveldb)
+5. [https://github.com/hashicorp/raft-mdb](https://github.com/hashicorp/raft-mdb)
+6. [https://github.com/hashicorp/raft/blob/main/inmem_store.go](https://github.com/hashicorp/raft/blob/main/inmem_store.go)
+7. **[github.com/tidwall/raft-wal](http://github.com/tidwall/raft-wal) ([github.com/tidwall/wal](http://github.com/tidwall/wal))  [https://github.com/tidwall/raft-jss](https://github.com/tidwall/raft-jss) (json) simple raw support** 
 
-Storage:
+# Storage:
 
-LSMTree
+## LSMTree
 
 leveldb: [https://github.com/google/leveldb](https://github.com/google/leveldb) [https://github.com/syndtr/goleveldb](https://github.com/syndtr/goleveldb)
 
@@ -73,7 +74,7 @@ rocksdb extra
 2. *https://github.com/cockroachdb/pebble*
 3. *https://github.com/dgraph-io/badger*
 
-BTree
+## BTree
 
 lmdb
 
@@ -81,7 +82,12 @@ bboltdb
 
 SQLite
 
-reference:
+
+
+# test:
+https://github.com/jepsen-io/jepsen
+
+# reference:
 
 1. [https://raft.github.io/](https://raft.github.io/)
 2. [https://github.com/hashicorp/raft/tree/main/docs](https://github.com/hashicorp/raft/tree/main/docs)
