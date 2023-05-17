@@ -46,14 +46,15 @@
 7. [**https://github.com/tidwall/uhaha/blob/master/uhaha.go**](https://github.com/tidwall/uhaha/blob/master/uhaha.go)
 8. **[https://github.com/rqlite/rqlite/blob/master/store/store.go#L426](https://github.com/rqlite/rqlite/blob/master/store/store.go#L426) (distributed relational database use sqlite)**
 9. [https://github.com/hashicorp/consul/blob/v1.15.2/agent/consul/server.go#L1135](https://github.com/hashicorp/consul/blob/v1.15.2/agent/consul/server.go#L1135) (consul)
-10. [https://github.com/travisjeffery/jocko/blob/9613083803fc7d0fefd10d6d0cf00223d13ba301/jocko/leader.go#L117](https://github.com/travisjeffery/jocko/blob/9613083803fc7d0fefd10d6d0cf00223d13ba301/jocko/leader.go#L117) (kafka)
+10. [https://github.com/travisjeffery/jocko/blob/9613083803fc7d0fefd10d6d0cf00223d13ba301/jocko/leader.go#L117](https://github.com/travisjeffery/jocko/blob/9613083803fc7d0fefd10d6d0cf00223d13ba301/jocko/leader.go#L117) (kafka like KRaft)
 11. [https://github.com/ipfs-cluster/ipfs-cluster/blob/f092e02850221fb03ebabb7bb24007748a36c804/consensus/raft/raft.go#L100](https://github.com/ipfs-cluster/ipfs-cluster/blob/f092e02850221fb03ebabb7bb24007748a36c804/consensus/raft/raft.go#L100) (ipfs)
 12. [https://github.com/dapr/dapr/blob/770d4e51604f1264d8bb25cedf16ea9f77539394/pkg/placement/raft/server.go#L226](https://github.com/dapr/dapr/blob/770d4e51604f1264d8bb25cedf16ea9f77539394/pkg/placement/raft/server.go#L226) (dapr placement data)
+13. [https://github.com/hashicorp/vault/blob/6bb1f6a9046a0dc1d301cf2d2a8191bbe81fe4c8/physical/raft/raft.go#L1018](https://github.com/hashicorp/vault/blob/6bb1f6a9046a0dc1d301cf2d2a8191bbe81fe4c8/physical/raft/raft.go#L1018)
 
 ### raft storage(log, meta stable):
 
 1. [https://github.com/weedge/raft-pebble](https://github.com/weedge/raft-pebble)
-2. [https://github.com/BBVA/raft-badger](https://github.com/BBVA/raft-badger) [https://github.com/rfyiamcool/raft-badger](https://github.com/rfyiamcool/raft-badger)
+2. [https://github.com/BBVA/raft-badger](https://github.com/BBVA/raft-badger) [https://github.com/vaccovecrana/vephar/blob/main/srv/vp_badger.go](https://github.com/vaccovecrana/vephar/blob/main/srv/vp_badger.go)
 3. [https://github.com/hashicorp/raft-boltdb](https://github.com/hashicorp/raft-boltdb) 
 4. [https://github.com/tidwall/raft-leveldb](https://github.com/tidwall/raft-leveldb)
 5. [https://github.com/hashicorp/raft-mdb](https://github.com/hashicorp/raft-mdb)
@@ -62,7 +63,7 @@
 
 # Storage:
 
-## LSMTree
+## [LSMTree](https://en.wikipedia.org/wiki/Log-structured_merge-tree)
 
 leveldb: [https://github.com/google/leveldb](https://github.com/google/leveldb) [https://github.com/syndtr/goleveldb](https://github.com/syndtr/goleveldb)
 
@@ -72,16 +73,15 @@ rocksdb extra
 
 1. [https://github.com/bytedance/terarkdb](https://github.com/bytedance/terarkdb)  [https://github.com/topling/toplingdb](https://github.com/topling/toplingdb)
 2. *https://github.com/cockroachdb/pebble*
-3. *https://github.com/dgraph-io/badger*
+3. *https://github.com/dgraph-io/badger* <u>[bench badger-lmdb-boltdb](https://dgraph.io/blog/post/badger-lmdb-boltdb/)</u>
 
-## BTree
+## [BTree](https://en.wikipedia.org/wiki/B%2B_tree)
 
-lmdb
+[lmdb](https://www.symas.com/lmdb)
 
-bboltdb
+[bboltdb](https://github.com/etcd-io/bbolt)
 
-SQLite
-
+[SQLite3](https://www.sqlite.org/arch.html)
 
 
 # test:
