@@ -30,10 +30,10 @@
 
 [https://github.com/RedisLabs/redisraft/blob/master/deps/raft/README.md](https://github.com/RedisLabs/redisraft/blob/master/deps/raft/README.md) [**https://redis.com/blog/redisraft-new-strong-consistency-deployment-option/**](https://redis.com/blog/redisraft-new-strong-consistency-deployment-option/)
 
-1. c++-raft:[**https://github.com/logcabin/logcabin**](https://github.com/logcabin/logcabin) [https://github.com/baidu/braft](https://github.com/baidu/braft) [https://github.com/PikaLabs/floyd](https://github.com/PikaLabs/floyd)
-2. rust-raft: [https://tikv.org/blog/implement-raft-in-rust/](https://tikv.org/blog/implement-raft-in-rust/) [https://github.com/tikv/raft-rs](https://github.com/tikv/raft-rs)
-3. go-raft: [https://github.com/hashicorp/raft](https://github.com/hashicorp/raft)([prevote issue](https://github.com/hashicorp/raft/issues/31))   [https://github.com/etcd-io/raft](https://github.com/etcd-io/raft)
-4. go-multi-group-raft: [https://github.com/lni/dragonboat](https://github.com/lni/dragonboat)
+2. c++-raft:[**https://github.com/logcabin/logcabin**](https://github.com/logcabin/logcabin) [https://github.com/baidu/braft](https://github.com/baidu/braft) [https://github.com/PikaLabs/floyd](https://github.com/PikaLabs/floyd)
+3. rust-raft: [https://tikv.org/blog/implement-raft-in-rust/](https://tikv.org/blog/implement-raft-in-rust/) [https://github.com/tikv/raft-rs](https://github.com/tikv/raft-rs)
+4. go-raft: [https://github.com/hashicorp/raft](https://github.com/hashicorp/raft)([prevote issue](https://github.com/hashicorp/raft/issues/31))   [https://github.com/etcd-io/raft](https://github.com/etcd-io/raft)
+5. go-multi-group-raft: [https://github.com/lni/dragonboat](https://github.com/lni/dragonboat)
 
 ### hashicorp raft  use case:
 
@@ -72,8 +72,9 @@ rocksdb: [https://github.com/facebook/rocksdb](https://github.com/facebook/rocks
 rocksdb extra
 
 1. [https://github.com/bytedance/terarkdb](https://github.com/bytedance/terarkdb)  [https://github.com/topling/toplingdb](https://github.com/topling/toplingdb)
-2. *https://github.com/cockroachdb/pebble*
-3. *https://github.com/dgraph-io/badger* <u>[bench badger-lmdb-boltdb](https://dgraph.io/blog/post/badger-lmdb-boltdb/)</u>
+2. [https://github.com/tikv/titan](https://www.pingcap.com/blog/titan-storage-engine-design-and-implementation/)
+3. *https://github.com/cockroachdb/pebble*
+4. *https://github.com/dgraph-io/badger* <u>[bench badger-lmdb-boltdb](https://dgraph.io/blog/post/badger-lmdb-boltdb/)</u>
 
 ## [BTree](https://en.wikipedia.org/wiki/B%2B_tree)
 
