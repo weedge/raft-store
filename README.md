@@ -14,6 +14,11 @@
 
 [https://github.com/talent-plan/tinykv](https://github.com/talent-plan/tinykv) (multi-raft)
 
+[https://github.com/tikv/raft-engine](https://github.com/tikv/raft-engine)
+
+https://www.pingcap.com/blog/raft-engine-a-log-structured-embedded-storage-engine-for-multi-raft-logs-in-tikv/
+
+
 ## implementations need support:
 
 1. **Leader Election (the important first thing core PreVote)**
