@@ -2,11 +2,10 @@
 
 ## paper:
 
-[https://raft.github.io/raft.pdf](https://raft.github.io/raft.pdf)
+[https://raft.github.io/raft.pdf](https://raft.github.io/raft.pdf)  [raft-zh_cn](https://github.com/maemual/raft-zh_cn/blob/master/raft-zh_cn.md)
 
-[https://web.stanford.edu/~ouster/cgi-bin/papers/OngaroPhD.pdf](https://web.stanford.edu/~ouster/cgi-bin/papers/OngaroPhD.pdf)
+[https://web.stanford.edu/~ouster/cgi-bin/papers/OngaroPhD.pdf](https://web.stanford.edu/~ouster/cgi-bin/papers/OngaroPhD.pdf) [raft-thesis-zh_cn](https://github.com/OneSizeFitsQuorum/raft-thesis-zh_cn/blob/master/raft-thesis-zh_cn.md)
 
-[https://github.com/maemual/raft-zh_cn](https://github.com/maemual/raft-zh_cn)
 
 ## learn:
 
