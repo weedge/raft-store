@@ -17,7 +17,7 @@
 
 https://www.pingcap.com/blog/raft-engine-a-log-structured-embedded-storage-engine-for-multi-raft-logs-in-tikv/
 
-[tikv partitioned-raft-KV](https://github.com/tikv/tikv/pull/14305/files)
+[tikv partitioned-raft-KV](https://github.com/tikv/tikv/issues/12842)
 
 
 ## implementations need support:
