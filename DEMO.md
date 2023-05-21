@@ -10,7 +10,8 @@
 - [ ]  使用operator来部署
 - [ ]  增强版实现
     - [ ]  实现强一致读， 可参考[rqlite](https://github.com/rqlite/rqlite) 实现
-    - [ ]  实现multi group raft, 可以直接引用三方库 https://github.com/lni/dragonboat-example ，或者使用etcd https://github.com/etcd-io/raft 实现multi group raft
+    - [ ]  实现multi group raft, 可以直接引用三方库 https://github.com/lni/dragonboat-example ，或者使用etcd https://github.com/etcd-io/raft 实现multi raft group 
+    - [ ]  增加pd, 支持 multi raft group 自动移动数据以平衡负载, 以及修复具有故障副本的raft group。参考：https://github.com/matrixorigin/matrixcube
     - [ ]  支持redis协议操作， 本地可参考ledis，远程可参考https://github.com/yongman/tidis ；更多操作可参考 https://github.com/tidwall/summitdb
     - [ ]  支持sql 协议解析操作，可参考 [rqlite](https://github.com/rqlite/rqlite) pgsql sqlparser实现
     - [ ]  支持 分布式事务操作，比较难，可参考论文spanner, tidb实现
