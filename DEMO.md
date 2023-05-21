@@ -8,7 +8,7 @@
 - [ ]  采用docker进行部署
 - [ ]  使用k8s集群管理编排
 - [ ]  使用operator来部署
-- [ ]  增强版实现
+- [ ]  增强版实现 (HSTAP)
     - [ ]  实现强一致读， 可参考[rqlite](https://github.com/rqlite/rqlite) 实现
     - [ ]  实现multi group raft, 可以直接引用三方库 https://github.com/lni/dragonboat-example ，或者使用etcd https://github.com/etcd-io/raft 实现multi raft group 
     - [ ]  增加pd, 支持 multi raft group 自动移动数据以平衡负载, 以及修复具有故障副本的raft group。参考：https://github.com/matrixorigin/matrixcube
